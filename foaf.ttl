@@ -30,5 +30,5 @@
     a foaf:Person ;
     foaf:name "Milos Jovanovik" ;
     foaf:mbox_sha1sum "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
-    rdfs:seeAlso <https://mjovanovikj.com/foaf.ttl>
+    rdfs:seeAlso <https://mjovanovik.com/foaf.ttl>
   ] .
