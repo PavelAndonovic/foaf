@@ -1,1 +1,34 @@
-.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Pavel Andonovic" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Pavel" ;
+  foaf:family_name "Andonovic" ;
+  foaf:nick "Paki" ;
+  foaf:mbox_sha1sum "31f59392b746843da68c4068695b9e47bd8ab107" ;
+  foaf:phone <tel:+38975368975> ;
+  foaf:workplaceHomepage <https://datamasters.ai> ;
+  foaf:workInfoHomepage <https://en.wikipedia.org/wiki/Data_science> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Milena Trajanoska" ;
+    foaf:mbox_sha1sum "7d299bc923aaaa0716de4b5c149a01c334b3ed4f" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Milos Jovanovik" ;
+    foaf:mbox_sha1sum "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+    rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl>
+  ] .
