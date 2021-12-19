@@ -2,14 +2,14 @@
 @prefix ns0: <http://webns.net/mvcb/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://njh.me/>
+<https://raw.githubusercontent.com/PavelAndonovic/foaf/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <http://njh.me/#me> ;
-  foaf:primaryTopic <http://njh.me/#me> ;
+  foaf:maker <https://raw.githubusercontent.com/PavelAndonovic/foaf/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/PavelAndonovic/foaf/main/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<http://njh.me/#me>
+<https://raw.githubusercontent.com/PavelAndonovic/foaf/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Pavel Andonovic" ;
   foaf:title "Mr" ;
